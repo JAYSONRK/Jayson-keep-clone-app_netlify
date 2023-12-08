@@ -17,6 +17,7 @@ const App = (note) => {
     })
     const localNote = [];
     localStorage.setItem('localNote',JSON.stringify(addItem));
+    console.log(localNote);
  }
 
  const deleteNote = (id) => {
